@@ -541,7 +541,7 @@ run:
 		--kubeconfig=$(KUBECONFIG) \
 		--authorization-kubeconfig=$(KUBECONFIG) \
 		--authentication-kubeconfig=$(KUBECONFIG) \
-		--authentication-skip-lookup
+		--authentication-skip-lookup -h
 
 .PHONY: push-to-kind
 push-to-kind: container
